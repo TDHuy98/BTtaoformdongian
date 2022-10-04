@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sở thích của bạn</title>
+    <link rel="stylesheet" type="text/css" href="TableStyle.css">
+    <style>
+        .border {border: 10px aqua; border-color: aqua;}
+    </style>
+</head>
+<body>
+<form action="Sothichcuaban.html">
+    <table class="table">
+        <tr><th colspan="4" style="color: white">Sở thích của bạn</th></tr>
+        <tr>
+            <td><label  align="right" style="color: blue" for="yourname">Họ và Tên</label></td>
+            <td colspan="3"><input type="text" id="yourname" name="yourname"></td>
+        </tr>
+        <tr>
+            <td><label align="right" style="color: blue" for="email">Email</label></td>
+            <td colspan="3"><input type="text" id="email" name="email"></td>
+        </tr>
+        <tr>
+            <td><label style="color: blue">Sở thích</label></td>
+            <td><label style="color: orange"><input name="hobby" value="thể thao" type="checkbox"/> Thể thao</label>
+            </td>
+            <td><label style="color: orange"><input name="hobby" value="âm nhạc" type="checkbox"/> Âm nhạc</label>
+            </td>
+            <td><label style="color: orange"><input name="hobby" value="đọc sách" type="checkbox"/> Đọc sách</label>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><label style="color: orange"><input name="hobby" value="luớt web" type="checkbox"/> Lướt Web</label>
+            </td>
+            <td><label style="color: orange"><input name="hobby" value="chơi game" type="checkbox"/> Chơi game</label></td>
+            <td><label style="color: orange"><input name="hobby" value="điện ảnh" type="checkbox"/> Điện ảnh</label></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><label style="color: orange"><input name="hobby" value="travel" type="checkbox"/> Du lịch</label></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right"><input type="submit" formaction="Sothichcuaban.html" name="Submit Form" value="Gửi thông tin"></td>
+            <td colspan="2" align="left"><input type="reset" formaction="reset" name="Reset Form" value="Nhập lại">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
