@@ -2,9 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Đăng ký học viên</title>
 </head>
 <body>
-
+<form action="DangKyHocVien.html" method="post">
+    <table class="table" style="background-color: yellow">
+        <th colspan="4" style="background-color: aquamarine; color: blue;width: 400px" align="left">Đăng ký học viên</th>
+        <tr>
+            <td colspan="2">Họ và tên</td>
+            <td colspan="2"><input type="text" id="name" name="name" style="width: 250px"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Ngày sinh</td>
+            <td colspan="2"><input type="date" id="dob" name="dob"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Giới tính</td>
+            <td colspan="2"><input type="radio" id="nam" name="gender" value="Nam"><label>Nam</label>
+            <input type="radio" id="nu" name="gender" value="Nữ"><label>Nữ</label></td>
+        </tr>
+        <tr>
+            <td colspan="2">Địa chỉ</td>
+            <td colspan="2"><input type="textarea" style="width: 250px; height: 75px"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Lớp</td>
+            <td colspan="2">
+                <select>
+                    <option type="radio" id="chonlop" name="class" value="chonlop"><label>--Chọn lớp--</label></option>
+                    <option type="radio" id="lop 1" name="class" value="lop1"><label>--Lớp 1--</label></option>
+                    <option type="radio" id="lop 2" name="class" value="lop2"><label>--Lớp 2--</label></option>
+                    <option type="radio" id="lop 3" name="class" value="lop3"><label>--Lớp 3--</label></option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">Email</td>
+            <td colspan="2"><input type="text"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Điện thoại</td>
+            <td colspan="2"><input type="tel"></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="2">
+                <input type="submit" formaction="DangKyHocVien.html" align="right" name="submit" value="Đăng ký">
+                <input type="reset" name="reset" value="Nhập Lại" align="left"></td>
+        </tr>
+    </table>
+</form>
 </body>
 </html>
